@@ -6,3 +6,10 @@ export type ProductModel = {
   description: string
 
 }
+export var default_product = {
+  id: 1,
+  name: '',
+  price: 0,
+  quantity: 0,
+  description: ''
+}

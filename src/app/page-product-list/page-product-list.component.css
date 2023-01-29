@@ -1,0 +1,20 @@
+.lista_produktow{
+  display: flex;
+  flex: 1 1 0;
+
+  width: 100%;
+}
+.container{
+
+}
+.header{
+  display: flex;
+  border-bottom: 1px solid black;
+  font-weight: bold;
+  background-color: cornflowerblue;
+  padding: 2px 2px 4px 4px;
+  text-align: left;
+}
+.row{
+  padding: 4px 2px 2px 4px
+}

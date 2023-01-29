@@ -1,1 +1,34 @@
-<p>page-product-form works!</p>
+<div class="form">
+  <div class="title">
+    Product form
+  </div>
+  <div class="form-fields">
+    <div class="field">
+      <label>Name:</label>
+      <input type="text" placeholder="Enter name" [(ngModel)]="addedProduct.name">
+    </div>
+    <div class="field">
+      <label>Price:</label>
+      <input type="text" placeholder="Enter price" [(ngModel)]="addedProduct.price">
+    </div>
+    <div class="field">
+      <label>Quantity:</label>
+      <input type="text" placeholder="Enter quantity" [(ngModel)]="addedProduct.quantity">
+    </div>
+    <div class="field">
+      <label>Description:</label>
+      <input type="text" placeholder="Enter description" [(ngModel)]="addedProduct.description">
+    </div>
+  </div>
+  <div class="form-buttons">
+    <div class="button-clear-container">
+      <button class="clear-button" (click)="clearForm()">
+        Clear</button>
+    </div>
+    <div class="button-submit-container">
+      <button class="submit-button"(click)="addProductToService()">
+        Submit</button>
+    </div>
+  </div>
+</div>
+

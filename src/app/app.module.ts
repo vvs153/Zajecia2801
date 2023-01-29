@@ -10,6 +10,7 @@ import { PageMainComponent } from './page-main/page-main.component';
 import { PageProductFormComponent } from './page-product-form/page-product-form.component';
 import { PageProductListComponent } from './page-product-list/page-product-list.component';
 import {AppRoutingModule} from "./app-routing.module";
+import {FormsModule} from "@angular/forms";
 
 @NgModule({
   declarations: [
@@ -21,10 +22,11 @@ import {AppRoutingModule} from "./app-routing.module";
     PageProductFormComponent,
     PageProductListComponent
   ],
-    imports: [
-        BrowserModule,
-        AppRoutingModule
-    ],
+  imports: [
+    BrowserModule,
+    AppRoutingModule,
+    FormsModule
+  ],
   providers: [],
   bootstrap: [AppComponent]
 })
